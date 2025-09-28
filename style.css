@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html-body{
+    height: 100%;
+    width: 100%;
+}
+
+/* HEADER SECTION */
+.header{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #1b2a3d;
+    padding: 20px;
+    font-size: 100;
+    padding: 5%;
+}
+
+.header h3{
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* ABOUT SECTION */
+
+.about{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px 20px;
+}
+
+.about-me{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.about p{
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.6;
+   
+}
+
+/* EDUCATION SECTION */ 
+
+.education {
+  background: #dbeeff;
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+
+}
+
+.education h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.education p {
+  font-size: 1em;
+  margin-bottom: 10px;
+  
+  font-style: italic;
+}
+
+.edu-item {
+  background: #fff;
+  margin: 10px auto;
+  padding: 15px;
+  max-width: 500px;
+  border-radius: 5px;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: #222;
+}
+
+/* SKILLS SECTION */
+.skills{
+  background: #fdebb2;   /* Light yellow */
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin: 30px auto;
+  max-width: 800px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.skills h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.skill{
+  background: #fff;
+  margin: 10px auto;
+  padding: 15px;
+  max-width: 500px;
+  border-radius: 5px;
+  font-size: 1.1em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/*PROJECTS SECTION */
+
+.projects{
+    background: #e8ddf9 ;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin: 30px auto;
+  max-width: 800px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+
+.projects h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  font-weight: bold;
+  padding: 1px;
+}
+
+.project-item{
+  background: #fff;
+  margin: 10px auto;
+  padding: 15px;
+  max-width: 500px;
+  border-radius: 5px;
+  font-size: 1.1em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.project-item p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+/* CONTACT SECTION */
+.contact {
+  background: #dfffea;   /* Light green */
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin: 30px auto;
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contact h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.contact-item {
+  background: #fff;
+  margin: 10px auto;
+  padding: 15px;
+  max-width: 800px;
+  border-radius: 5px;
+  font-size: 1.05em;
+  color: #333;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* Footer */
+.footer {
+  background: #1b2a3d;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.footer p {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
